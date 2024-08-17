@@ -4,7 +4,7 @@
 
 Spending Calculator is a simple yet effective tool to manage and track your personal expenses. This project, built with HTML, CSS, and JavaScript, helps you keep track of your spending by allowing you to input expenses, mark them as paid or unpaid, and view your total spending in real-time. Ideal for personal budgeting or expense tracking, this tool provides a clean and straightforward interface for efficient financial management.
 
-<h1>Features</h1>
+<h2>Features</h2>
 
 <link>
 
@@ -22,6 +22,6 @@ Spending Calculator is a simple yet effective tool to manage and track your pers
 
 </link>
 
-<h1>Preview:</h1>
+<h2>Preview:</h2>
 
 ![](image.gif)
