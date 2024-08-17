@@ -1,4 +1,4 @@
-# spending_calculator
+
 
 <h1>Spending Calculator</h1>
 
