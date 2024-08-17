@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spending Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1 class="heading">SPENDING CALCULATOR</h1>
+    <div class="container">
+      <h3 class="greet">
+        Welcome, <input type="text" id = "greet"  placeholder="your name.." />
+      </h3>
+      <form>
+        <div class="double">
+          <div class="form-harcama">
+            <label class="label">Expense:</label>
+            <input id="harcama" type="text">
+          </div>
+          <div class="form-fiyat">
+            <label class="label">Price:</label>
+            <input id="fiyat" type="number">
+          </div>
+        </div>
+
+        <div class="double">
+          <div class="form-durum">
+            <input id = "status-input"  type="checkbox">
+            <label for="status-input">Paid</label>
+          </div>
+          <div>
+            <button class="ekle-btn">Add</button>
+          </div>
+        </div>
+      </form>
+      <!-- Toplam İfadesi -->
+      <div class="toplam">Total Spending: <span id="toplam-bilgi">0 </span> &#8378;
+      </div>
+
+      <select id="select-filter">
+        <option value="all">All</option>
+        <option value="payed">Paid</option>
+        <option value="not-payed">Not Paid</option>
+        
+      </select>
+        <!-- Liste -->
+       <div class="liste"></div>
+      
+    
+
+    <script src="main.js"></script>
+  </body> 
+</html>
